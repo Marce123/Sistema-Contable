@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContaProject.controladores.CuentasAElegirController">
+   <children>
+      <TableView fx:id="TablaCuentas" layoutX="14.0" layoutY="11.0" maxHeight="237.0" maxWidth="280.0" minHeight="200.0" minWidth="200.0" prefHeight="237.0" prefWidth="280.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="ColumnasCuentas" prefWidth="75.0" text="Nombre Cuenta" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="btnSeleccionar" layoutX="14.0" layoutY="261.0" mnemonicParsing="false" onAction="#Seleccionar" text="Seleccionar" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="175.0" />
+      <Button fx:id="btnCancelar" layoutX="224.0" layoutY="261.0" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" AnchorPane.leftAnchor="228.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="308.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContaProject.controladores.LoginController">
+  <children>
+    <AnchorPane id="anchorPane2" layoutY="8.0" prefHeight="218.0" prefWidth="328.0" styleClass="top-segment" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <VBox id="VBox" alignment="CENTER" prefHeight="183.0" prefWidth="259.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="29.0" AnchorPane.rightAnchor="40.0">
+          <children>
+            <AnchorPane id="AnchorPane" prefHeight="180.0" prefWidth="430.0">
+              <children>
+                <Label id="label1" layoutX="20.0" layoutY="27.0" text="Usuario" />
+                <TextField id="textField1" fx:id="txtUsername" layoutX="17.0" layoutY="51.0" prefHeight="25.0" prefWidth="220.0" promptText="Usuario" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="22.0" />
+                <Label id="label1" layoutX="20.0" layoutY="100.0" text="Contraseña" />
+                  <PasswordField id="passwordField1" fx:id="txtPassword" layoutX="20.0" layoutY="123.0" prefHeight="25.0" prefWidth="220.0" promptText="Contraseña" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="19.0" />
+                        <Label fx:id="lblMessage" layoutX="23.0" layoutY="167.0" prefHeight="25.0" prefWidth="222.0" textAlignment="CENTER" textFill="#fc2929" />
+              </children>
+            </AnchorPane>
+          </children>
+        </VBox>
+      </children>
+    </AnchorPane>
+    <Button id="button1" fx:id="btnLogin" defaultButton="true" layoutX="91.0" layoutY="227.0" onAction="#btnLoginAction" prefHeight="40.0" prefWidth="146.0" text="Login" textFill="#121212">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

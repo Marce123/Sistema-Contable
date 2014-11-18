@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="300.0" maxWidth="574.0" minHeight="273.0" minWidth="574.0" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContaProject.controladores.CatalogoDeCuentasController">
+   <children>
+      <TableView fx:id="TablaCuentas" maxHeight="220.0" maxWidth="767.0" minHeight="220.0" minWidth="767.0" prefHeight="220.0" prefWidth="767.0" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="ColumnaCod" prefWidth="75.0" text="Codigo" />
+          <TableColumn fx:id="ColumnaNombre" prefWidth="75.0" text="Nombre" />
+            <TableColumn fx:id="ColumnaTipo" prefWidth="75.0" text="Tipo" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button layoutX="442.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleCancerTrans" prefHeight="25.0" prefWidth="112.0" text="Atras" AnchorPane.leftAnchor="442.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>

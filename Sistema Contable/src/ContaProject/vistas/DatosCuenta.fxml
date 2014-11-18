@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="272.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContaProject.controladores.DatosCuentaController">
+   <children>
+      <GridPane layoutX="11.0" layoutY="37.0" maxHeight="139.0" maxWidth="486.0" minHeight="139.0" minWidth="486.0" prefHeight="139.0" prefWidth="486.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="8.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="lblCodigo" layoutX="102.0" layoutY="23.0" GridPane.columnIndex="1" />
+            <Label layoutX="14.0" layoutY="23.0" text="Codigo de la cuenta" />
+            <Label layoutX="14.0" layoutY="56.0" text="Nombre de le cuenta" GridPane.rowIndex="1" />
+            <Label fx:id="lblTipo" layoutX="102.0" layoutY="89.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label layoutX="14.0" layoutY="89.0" text="Tipo De Cuenta" GridPane.rowIndex="2" />
+            <Label fx:id="lblNombre" layoutX="102.0" layoutY="56.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Descripcion" GridPane.rowIndex="3" />
+            <Label fx:id="lblDescripcion" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Label layoutX="182.0" layoutY="14.0" text="Label" />
+   </children>
+</AnchorPane>
